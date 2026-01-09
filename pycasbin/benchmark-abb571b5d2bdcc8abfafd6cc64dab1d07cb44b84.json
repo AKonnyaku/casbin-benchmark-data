@@ -1,0 +1,264 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "",
+      "username": ""
+    },
+    "committer": {
+      "email": "",
+      "name": "",
+      "username": ""
+    },
+    "distinct": true,
+    "id": "abb571b5d2bdcc8abfafd6cc64dab1d07cb44b84",
+    "message": "",
+    "timestamp": "",
+    "tree_id": "",
+    "url": ""
+  },
+  "date": 1767991583760,
+  "tool": "python",
+  "benches": [
+    {
+      "name": "ExtractTokensShortSimple",
+      "value": 1887.81,
+      "unit": "ns/op",
+      "extra": "37953 rounds\n1 iterations"
+    },
+    {
+      "name": "ExtractTokensLongSimple",
+      "value": 2241.24,
+      "unit": "ns/op",
+      "extra": "126040 rounds\n1 iterations"
+    },
+    {
+      "name": "ExtractTokensShortNested",
+      "value": 3272.06,
+      "unit": "ns/op",
+      "extra": "91233 rounds\n1 iterations"
+    },
+    {
+      "name": "ExtractTokensLongNested",
+      "value": 3928.93,
+      "unit": "ns/op",
+      "extra": "97476 rounds\n1 iterations"
+    },
+    {
+      "name": "HasPolicySmall",
+      "value": 3875.11,
+      "unit": "ns/op",
+      "extra": "27086 rounds\n1 iterations"
+    },
+    {
+      "name": "HasPolicyMedium",
+      "value": 17536.87,
+      "unit": "ns/op",
+      "extra": "36735 rounds\n1 iterations"
+    },
+    {
+      "name": "HasPolicyLarge",
+      "value": 194114.07,
+      "unit": "ns/op",
+      "extra": "4754 rounds\n1 iterations"
+    },
+    {
+      "name": "AddPolicySmall",
+      "value": 17310.39,
+      "unit": "ns/op",
+      "extra": "58645 rounds\n1 iterations"
+    },
+    {
+      "name": "AddPolicyMedium",
+      "value": 447715.93,
+      "unit": "ns/op",
+      "extra": "17953 rounds\n1 iterations"
+    },
+    {
+      "name": "AddPolicyLarge",
+      "value": 482189.06,
+      "unit": "ns/op",
+      "extra": "2387 rounds\n1 iterations"
+    },
+    {
+      "name": "RemovePolicySmall",
+      "value": 3974.84,
+      "unit": "ns/op",
+      "extra": "63984 rounds\n1 iterations"
+    },
+    {
+      "name": "RemovePolicyMedium",
+      "value": 17416.55,
+      "unit": "ns/op",
+      "extra": "35208 rounds\n1 iterations"
+    },
+    {
+      "name": "RemovePolicyLarge",
+      "value": 195149.81,
+      "unit": "ns/op",
+      "extra": "4899 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelSizesLarge",
+      "value": 741378345.2,
+      "unit": "ns/op",
+      "extra": "5 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelLarge",
+      "value": 51291569.3,
+      "unit": "ns/op",
+      "extra": "20 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelWithDomainsPatternLarge",
+      "value": 94191.6,
+      "unit": "ns/op",
+      "extra": "5 rounds\n1 iterations"
+    },
+    {
+      "name": "Raw",
+      "value": 366.42,
+      "unit": "ns/op",
+      "extra": "130805 rounds\n20 iterations"
+    },
+    {
+      "name": "BasicModel",
+      "value": 60205.91,
+      "unit": "ns/op",
+      "extra": "1219 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModel",
+      "value": 63554.04,
+      "unit": "ns/op",
+      "extra": "10100 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelSizesSmall",
+      "value": 7624071.03,
+      "unit": "ns/op",
+      "extra": "126 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelSizesMedium",
+      "value": 74878230.21,
+      "unit": "ns/op",
+      "extra": "14 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelSmall",
+      "value": 577976.26,
+      "unit": "ns/op",
+      "extra": "1588 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelMedium",
+      "value": 5199252.81,
+      "unit": "ns/op",
+      "extra": "188 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelWithResourceRoles",
+      "value": 72334.21,
+      "unit": "ns/op",
+      "extra": "8186 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACModelWithDomains",
+      "value": 76016.19,
+      "unit": "ns/op",
+      "extra": "7609 rounds\n1 iterations"
+    },
+    {
+      "name": "ABACModel",
+      "value": 43408.8,
+      "unit": "ns/op",
+      "extra": "13416 rounds\n1 iterations"
+    },
+    {
+      "name": "ABACRuleModel",
+      "value": 60267552.59,
+      "unit": "ns/op",
+      "extra": "17 rounds\n1 iterations"
+    },
+    {
+      "name": "KeyMatchModel",
+      "value": 67867.61,
+      "unit": "ns/op",
+      "extra": "5061 rounds\n1 iterations"
+    },
+    {
+      "name": "RBACWithDeny",
+      "value": 92150.05,
+      "unit": "ns/op",
+      "extra": "7804 rounds\n1 iterations"
+    },
+    {
+      "name": "PriorityModel",
+      "value": 64810.66,
+      "unit": "ns/op",
+      "extra": "10734 rounds\n1 iterations"
+    },
+    {
+      "name": "Globmatch",
+      "value": 124865.69,
+      "unit": "ns/op",
+      "extra": "2023 rounds\n1 iterations"
+    },
+    {
+      "name": "RoleManagerSmall",
+      "value": 96049.65,
+      "unit": "ns/op",
+      "extra": "4815 rounds\n1 iterations"
+    },
+    {
+      "name": "RoleManagerMedium",
+      "value": 1493620.4,
+      "unit": "ns/op",
+      "extra": "388 rounds\n1 iterations"
+    },
+    {
+      "name": "RoleManagerLarge",
+      "value": 9972989.4,
+      "unit": "ns/op",
+      "extra": "50 rounds\n1 iterations"
+    },
+    {
+      "name": "BuildRoleLinksWithPatternLarge",
+      "value": 6724940.96,
+      "unit": "ns/op",
+      "extra": "148 rounds\n1 iterations"
+    },
+    {
+      "name": "BuildRoleLinksWithDomainPatternLarge",
+      "value": 7164550.46,
+      "unit": "ns/op",
+      "extra": "144 rounds\n1 iterations"
+    },
+    {
+      "name": "BuildRoleLinksWithPatternAndDomainPatternLarge",
+      "value": 7058244.11,
+      "unit": "ns/op",
+      "extra": "143 rounds\n1 iterations"
+    },
+    {
+      "name": "HasLinkWithPatternLarge",
+      "value": 4256.0,
+      "unit": "ns/op",
+      "extra": "5 rounds\n1 iterations"
+    },
+    {
+      "name": "HasLinkWithDomainPatternLarge",
+      "value": 2449.08,
+      "unit": "ns/op",
+      "extra": "37 rounds\n1 iterations"
+    },
+    {
+      "name": "HasLinkWithPatternAndDomainPatternLarge",
+      "value": 4073.4,
+      "unit": "ns/op",
+      "extra": "5 rounds\n1 iterations"
+    }
+  ]
+}
