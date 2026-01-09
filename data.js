@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-    "lastUpdate": 1767982598321,
+    "lastUpdate": 1767983695995,
     "repoUrl": "https://github.com/casbin/pycasbin",
     "entries": {
         "PyCasbin": [
@@ -212,6 +212,218 @@ window.BENCHMARK_DATA = {
                         "name": "has_link_with_pattern_and_domain_pattern_large",
                         "unit": "ns/op",
                         "value": 3947.3999947858824
+                    }
+                ]
+            },
+            {
+                "commit": {
+                    "time": "2026-01-10T02:28:13+08:00",
+                    "id": "b76df5be96cf8d1dc4fbf8ed6c7183d2a10f49ec",
+                    "author": "unknown",
+                    "message": "unknown"
+                },
+                "date": 1767983695995,
+                "tool": "pycasbin",
+                "benchmarks": [
+                    {
+                        "name": "extract_tokens_short_simple",
+                        "unit": "ns/op",
+                        "value": 1854.0273308237488
+                    },
+                    {
+                        "name": "extract_tokens_long_simple",
+                        "unit": "ns/op",
+                        "value": 2374.9691778133983
+                    },
+                    {
+                        "name": "extract_tokens_short_nested",
+                        "unit": "ns/op",
+                        "value": 3339.2917539824384
+                    },
+                    {
+                        "name": "extract_tokens_long_nested",
+                        "unit": "ns/op",
+                        "value": 3929.2050785204447
+                    },
+                    {
+                        "name": "has_policy_small",
+                        "unit": "ns/op",
+                        "value": 3827.2234289673984
+                    },
+                    {
+                        "name": "has_policy_medium",
+                        "unit": "ns/op",
+                        "value": 16987.92374247246
+                    },
+                    {
+                        "name": "has_policy_large",
+                        "unit": "ns/op",
+                        "value": 188080.68891190755
+                    },
+                    {
+                        "name": "add_policy_small",
+                        "unit": "ns/op",
+                        "value": 16967.358637765446
+                    },
+                    {
+                        "name": "add_policy_medium",
+                        "unit": "ns/op",
+                        "value": 495886.17405294173
+                    },
+                    {
+                        "name": "add_policy_large",
+                        "unit": "ns/op",
+                        "value": 453131.6458574073
+                    },
+                    {
+                        "name": "remove_policy_small",
+                        "unit": "ns/op",
+                        "value": 4051.0995512993522
+                    },
+                    {
+                        "name": "remove_policy_medium",
+                        "unit": "ns/op",
+                        "value": 17322.953722254726
+                    },
+                    {
+                        "name": "remove_policy_large",
+                        "unit": "ns/op",
+                        "value": 186091.37066027382
+                    },
+                    {
+                        "name": "rbac_model_sizes_large",
+                        "unit": "ns/op",
+                        "value": 655414120.8000033
+                    },
+                    {
+                        "name": "rbac_model_large",
+                        "unit": "ns/op",
+                        "value": 50280722.68421032
+                    },
+                    {
+                        "name": "rbac_model_with_domains_pattern_large",
+                        "unit": "ns/op",
+                        "value": 106564.79998942814
+                    },
+                    {
+                        "name": "raw",
+                        "unit": "ns/op",
+                        "value": 513.8713349640199
+                    },
+                    {
+                        "name": "basic_model",
+                        "unit": "ns/op",
+                        "value": 66146.40315776767
+                    },
+                    {
+                        "name": "rbac_model",
+                        "unit": "ns/op",
+                        "value": 63688.26471457816
+                    },
+                    {
+                        "name": "rbac_model_sizes_small",
+                        "unit": "ns/op",
+                        "value": 7912661.096000192
+                    },
+                    {
+                        "name": "rbac_model_sizes_medium",
+                        "unit": "ns/op",
+                        "value": 60661141.11764625
+                    },
+                    {
+                        "name": "rbac_model_small",
+                        "unit": "ns/op",
+                        "value": 565940.9474707886
+                    },
+                    {
+                        "name": "rbac_model_medium",
+                        "unit": "ns/op",
+                        "value": 5037630.398936079
+                    },
+                    {
+                        "name": "rbac_model_with_resource_roles",
+                        "unit": "ns/op",
+                        "value": 73051.05233046132
+                    },
+                    {
+                        "name": "rbac_model_with_domains",
+                        "unit": "ns/op",
+                        "value": 76104.14944213127
+                    },
+                    {
+                        "name": "abac_model",
+                        "unit": "ns/op",
+                        "value": 42745.953895528815
+                    },
+                    {
+                        "name": "abac_rule_model",
+                        "unit": "ns/op",
+                        "value": 59717678.529412076
+                    },
+                    {
+                        "name": "key_match_model",
+                        "unit": "ns/op",
+                        "value": 67641.7847488117
+                    },
+                    {
+                        "name": "rbac_with_deny",
+                        "unit": "ns/op",
+                        "value": 93042.5909565063
+                    },
+                    {
+                        "name": "priority_model",
+                        "unit": "ns/op",
+                        "value": 63346.25281758328
+                    },
+                    {
+                        "name": "globmatch",
+                        "unit": "ns/op",
+                        "value": 116141.18156253903
+                    },
+                    {
+                        "name": "role_manager_small",
+                        "unit": "ns/op",
+                        "value": 98149.01600671932
+                    },
+                    {
+                        "name": "role_manager_medium",
+                        "unit": "ns/op",
+                        "value": 1494177.0680627548
+                    },
+                    {
+                        "name": "role_manager_large",
+                        "unit": "ns/op",
+                        "value": 10204908.979165595
+                    },
+                    {
+                        "name": "build_role_links_with_pattern_large",
+                        "unit": "ns/op",
+                        "value": 7196943.407407414
+                    },
+                    {
+                        "name": "build_role_links_with_domain_pattern_large",
+                        "unit": "ns/op",
+                        "value": 7465507.656715728
+                    },
+                    {
+                        "name": "build_role_links_with_pattern_and_domain_pattern_large",
+                        "unit": "ns/op",
+                        "value": 7818107.4850738505
+                    },
+                    {
+                        "name": "has_link_with_pattern_large",
+                        "unit": "ns/op",
+                        "value": 4462.000003968569
+                    },
+                    {
+                        "name": "has_link_with_domain_pattern_large",
+                        "unit": "ns/op",
+                        "value": 2948.578945823723
+                    },
+                    {
+                        "name": "has_link_with_pattern_and_domain_pattern_large",
+                        "unit": "ns/op",
+                        "value": 4117.800006042671
                     }
                 ]
             }
