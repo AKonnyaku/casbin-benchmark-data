@@ -1,0 +1,174 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "9342fa78f4046d6b2bd012d5e0f41d51da3301d0",
+    "message": "Merge pull request #3 from AKonnyaku/yml-test\n\nYml test",
+    "timestamp": "2026-01-10T10:20:00+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/casbin-cpp/commit/9342fa78f4046d6b2bd012d5e0f41d51da3301d0"
+  },
+  "date": 1768011866438,
+  "tool": "cpp",
+  "benches": [
+    {
+      "name": "Benchmarkraw",
+      "value": 20.62,
+      "unit": "ns/op",
+      "extra": "iterations: 33823142\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkbasicmodel",
+      "value": 12061.92,
+      "unit": "ns/op",
+      "extra": "iterations: 57145\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkbasicmodellargesize",
+      "value": 11987.32,
+      "unit": "ns/op",
+      "extra": "iterations: 58481\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodel",
+      "value": 14882.94,
+      "unit": "ns/op",
+      "extra": "iterations: 46638\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodelsizessmall",
+      "value": 114275.01,
+      "unit": "ns/op",
+      "extra": "iterations: 6125\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodelsmall",
+      "value": 184360.19,
+      "unit": "ns/op",
+      "extra": "iterations: 3830\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithresourceroles",
+      "value": 12328.23,
+      "unit": "ns/op",
+      "extra": "iterations: 58064\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdomains",
+      "value": 13968.25,
+      "unit": "ns/op",
+      "extra": "iterations: 50201\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkkeymatchmodel",
+      "value": 13843.57,
+      "unit": "ns/op",
+      "extra": "iterations: 51725\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdeny",
+      "value": 20570.66,
+      "unit": "ns/op",
+      "extra": "iterations: 34992\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkprioritymodel",
+      "value": 11933.98,
+      "unit": "ns/op",
+      "extra": "iterations: 61301\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedraw",
+      "value": 21.16,
+      "unit": "ns/op",
+      "extra": "iterations: 33123466\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedbasicmodel",
+      "value": 102.39,
+      "unit": "ns/op",
+      "extra": "iterations: 6798283\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodel",
+      "value": 103.08,
+      "unit": "ns/op",
+      "extra": "iterations: 6755914\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelsmall",
+      "value": 102.01,
+      "unit": "ns/op",
+      "extra": "iterations: 6809289\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithresourceroles",
+      "value": 101.92,
+      "unit": "ns/op",
+      "extra": "iterations: 6793291\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdomains",
+      "value": 116.62,
+      "unit": "ns/op",
+      "extra": "iterations: 5753455\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedkeymatchmodel",
+      "value": 128.04,
+      "unit": "ns/op",
+      "extra": "iterations: 5481349\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdeny",
+      "value": 101.84,
+      "unit": "ns/op",
+      "extra": "iterations: 6672200\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkcachedprioritymodel",
+      "value": 105.63,
+      "unit": "ns/op",
+      "extra": "iterations: 5818354\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkvectoroperations",
+      "value": 974.03,
+      "unit": "ns/op",
+      "extra": "iterations: 719374\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkhaspolicysmall",
+      "value": 19385.45,
+      "unit": "ns/op",
+      "extra": "iterations: 36123\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkaddpolicysmall",
+      "value": 107681.44,
+      "unit": "ns/op",
+      "extra": "iterations: 9771\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkremovepolicysmall",
+      "value": 1076.41,
+      "unit": "ns/op",
+      "extra": "iterations: 651871\nrepetition: 0"
+    },
+    {
+      "name": "Benchmarkrolemanagersmall",
+      "value": 14190.58,
+      "unit": "ns/op",
+      "extra": "iterations: 49132\nrepetition: 0"
+    }
+  ]
+}
