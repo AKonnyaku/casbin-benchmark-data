@@ -1,0 +1,295 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "4c7bc4661e443ee3e1db16460c3655e30cd06a37",
+    "message": "Merge pull request #2 from AKonnyaku/yml-test\n\nYml test",
+    "timestamp": "2026-01-11T06:46:36+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/node-casbin/commit/4c7bc4661e443ee3e1db16460c3655e30cd06a37"
+  },
+  "date": 1768085513474,
+  "tool": "node",
+  "procs": 4,
+  "benches": [
+    {
+      "name": "BasicModel",
+      "value": 12252.78,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModel",
+      "value": 32725.82,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelSizesSmall",
+      "value": 661348.64,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelSizesMedium",
+      "value": 6521832.73,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelSizesLarge",
+      "value": 71905052.7,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelSmall",
+      "value": 686140.21,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelMedium",
+      "value": 7409533.42,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelLarge",
+      "value": 81584136.11,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelWithResourceRoles",
+      "value": 24237.83,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelWithDomains",
+      "value": 19365.3,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "ABACModel",
+      "value": 10642.21,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "ABACRuleModel",
+      "value": 3946414.08,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "KeyMatchModel",
+      "value": 13197.06,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelWithDeny",
+      "value": 46137.1,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "PriorityModel",
+      "value": 17981.29,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RBACModelWithDomainPatternLarge",
+      "value": 88214.39,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedBasicModel",
+      "value": 5549.67,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModel",
+      "value": 5237.88,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelSmall",
+      "value": 5624.89,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelMedium",
+      "value": 5619.6,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelLarge",
+      "value": 1311422.91,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelWithResourceRoles",
+      "value": 5466.82,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelWithDomains",
+      "value": 5360.63,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedABACModel",
+      "value": 14183.48,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedKeyMatchModel",
+      "value": 5414.36,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedRBACModelWithDeny",
+      "value": 5282.06,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "CachedPriorityModel",
+      "value": 5553.52,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasPolicySmall",
+      "value": 9272.31,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasPolicyMedium",
+      "value": 31132.32,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasPolicyLarge",
+      "value": 254027.29,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "AddPolicySmall",
+      "value": 11642.08,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "AddPolicyMedium",
+      "value": 44455.6,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "AddPolicyLarge",
+      "value": 490326.73,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RemovePolicySmall",
+      "value": 7758.61,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RemovePolicyMedium",
+      "value": 8304.95,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RemovePolicyLarge",
+      "value": 378526.96,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RoleManagerSmall",
+      "value": 245227.62,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RoleManagerMedium",
+      "value": 2515142.0,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "RoleManagerLarge",
+      "value": 28196218.73,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "BuildRoleLinksWithPatternLarge",
+      "value": 7244962.2,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "BuildRoleLinksWithDomainPatternLarge",
+      "value": 7181944.15,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "BuildRoleLinksWithPatternAndDomainPatternLarge",
+      "value": 7228398.82,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasLinkWithPatternLarge",
+      "value": 64842563.88,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasLinkWithDomainPatternLarge",
+      "value": 69795.22,
+      "unit": "ns/op",
+      "extra": ""
+    },
+    {
+      "name": "HasLinkWithPatternAndDomainPatternLarge",
+      "value": 64741878.91,
+      "unit": "ns/op",
+      "extra": ""
+    }
+  ]
+}
