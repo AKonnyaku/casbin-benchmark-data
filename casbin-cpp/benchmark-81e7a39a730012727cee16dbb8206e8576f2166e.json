@@ -1,0 +1,175 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "81e7a39a730012727cee16dbb8206e8576f2166e",
+    "message": "Merge pull request #6 from AKonnyaku/yml-test\n\nfix: correctly use dynamic cpu count in output",
+    "timestamp": "2026-01-10T23:31:05+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/casbin-cpp/commit/81e7a39a730012727cee16dbb8206e8576f2166e"
+  },
+  "date": 1768059321369,
+  "tool": "cpp",
+  "procs": 4,
+  "benches": [
+    {
+      "name": "Benchmarkraw",
+      "value": 19.81,
+      "unit": "ns/op",
+      "extra": "33164204 times"
+    },
+    {
+      "name": "Benchmarkbasicmodel",
+      "value": 12116.46,
+      "unit": "ns/op",
+      "extra": "57598 times"
+    },
+    {
+      "name": "Benchmarkbasicmodellargesize",
+      "value": 12098.51,
+      "unit": "ns/op",
+      "extra": "60112 times"
+    },
+    {
+      "name": "Benchmarkrbacmodel",
+      "value": 14779.81,
+      "unit": "ns/op",
+      "extra": "47167 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelsizessmall",
+      "value": 112404.86,
+      "unit": "ns/op",
+      "extra": "6180 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelsmall",
+      "value": 181283.21,
+      "unit": "ns/op",
+      "extra": "3898 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithresourceroles",
+      "value": 12224.07,
+      "unit": "ns/op",
+      "extra": "58062 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdomains",
+      "value": 14060.26,
+      "unit": "ns/op",
+      "extra": "49427 times"
+    },
+    {
+      "name": "Benchmarkkeymatchmodel",
+      "value": 14079.84,
+      "unit": "ns/op",
+      "extra": "51505 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdeny",
+      "value": 20209.12,
+      "unit": "ns/op",
+      "extra": "35203 times"
+    },
+    {
+      "name": "Benchmarkprioritymodel",
+      "value": 11987.61,
+      "unit": "ns/op",
+      "extra": "60536 times"
+    },
+    {
+      "name": "Benchmarkcachedraw",
+      "value": 21.18,
+      "unit": "ns/op",
+      "extra": "33389271 times"
+    },
+    {
+      "name": "Benchmarkcachedbasicmodel",
+      "value": 105.26,
+      "unit": "ns/op",
+      "extra": "6632409 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodel",
+      "value": 106.74,
+      "unit": "ns/op",
+      "extra": "6565867 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelsmall",
+      "value": 108.2,
+      "unit": "ns/op",
+      "extra": "6548966 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithresourceroles",
+      "value": 107.36,
+      "unit": "ns/op",
+      "extra": "6430015 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdomains",
+      "value": 121.54,
+      "unit": "ns/op",
+      "extra": "5644477 times"
+    },
+    {
+      "name": "Benchmarkcachedkeymatchmodel",
+      "value": 129.12,
+      "unit": "ns/op",
+      "extra": "5465291 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdeny",
+      "value": 107.56,
+      "unit": "ns/op",
+      "extra": "6485373 times"
+    },
+    {
+      "name": "Benchmarkcachedprioritymodel",
+      "value": 107.47,
+      "unit": "ns/op",
+      "extra": "6176157 times"
+    },
+    {
+      "name": "Benchmarkvectoroperations",
+      "value": 995.95,
+      "unit": "ns/op",
+      "extra": "701737 times"
+    },
+    {
+      "name": "Benchmarkhaspolicysmall",
+      "value": 19225.74,
+      "unit": "ns/op",
+      "extra": "36856 times"
+    },
+    {
+      "name": "Benchmarkaddpolicysmall",
+      "value": 106872.54,
+      "unit": "ns/op",
+      "extra": "9674 times"
+    },
+    {
+      "name": "Benchmarkremovepolicysmall",
+      "value": 1089.82,
+      "unit": "ns/op",
+      "extra": "643243 times"
+    },
+    {
+      "name": "Benchmarkrolemanagersmall",
+      "value": 14237.28,
+      "unit": "ns/op",
+      "extra": "49232 times"
+    }
+  ]
+}
