@@ -1,0 +1,295 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "345840faf492d0dd1eaa428dffb8322c943a9097",
+    "message": "Merge pull request #6 from AKonnyaku/yml-test\n\nrefactor: cleanup unused variables and add iteration count",
+    "timestamp": "2026-01-11T12:01:27+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/node-casbin/commit/345840faf492d0dd1eaa428dffb8322c943a9097"
+  },
+  "date": 1768104393270,
+  "tool": "node",
+  "procs": 4,
+  "benches": [
+    {
+      "name": "BasicModel",
+      "value": 11720.13,
+      "unit": "ns/op",
+      "extra": "4836 times"
+    },
+    {
+      "name": "RBACModel",
+      "value": 33335.29,
+      "unit": "ns/op",
+      "extra": "1657 times"
+    },
+    {
+      "name": "RBACModelSizesSmall",
+      "value": 666827.88,
+      "unit": "ns/op",
+      "extra": "86 times"
+    },
+    {
+      "name": "RBACModelSizesMedium",
+      "value": 6414531.61,
+      "unit": "ns/op",
+      "extra": "11 times"
+    },
+    {
+      "name": "RBACModelSizesLarge",
+      "value": 74864063.95,
+      "unit": "ns/op",
+      "extra": "6 times"
+    },
+    {
+      "name": "RBACModelSmall",
+      "value": 737076.6,
+      "unit": "ns/op",
+      "extra": "74 times"
+    },
+    {
+      "name": "RBACModelMedium",
+      "value": 7538821.55,
+      "unit": "ns/op",
+      "extra": "8 times"
+    },
+    {
+      "name": "RBACModelLarge",
+      "value": 81822793.67,
+      "unit": "ns/op",
+      "extra": "1 times"
+    },
+    {
+      "name": "RBACModelWithResourceRoles",
+      "value": 24632.09,
+      "unit": "ns/op",
+      "extra": "2410 times"
+    },
+    {
+      "name": "RBACModelWithDomains",
+      "value": 19269.5,
+      "unit": "ns/op",
+      "extra": "2941 times"
+    },
+    {
+      "name": "ABACModel",
+      "value": 10818.12,
+      "unit": "ns/op",
+      "extra": "5406 times"
+    },
+    {
+      "name": "ABACRuleModel",
+      "value": 4037237.59,
+      "unit": "ns/op",
+      "extra": "13 times"
+    },
+    {
+      "name": "KeyMatchModel",
+      "value": 13864.37,
+      "unit": "ns/op",
+      "extra": "4233 times"
+    },
+    {
+      "name": "RBACModelWithDeny",
+      "value": 48765.48,
+      "unit": "ns/op",
+      "extra": "1174 times"
+    },
+    {
+      "name": "PriorityModel",
+      "value": 19224.77,
+      "unit": "ns/op",
+      "extra": "2919 times"
+    },
+    {
+      "name": "RBACModelWithDomainPatternLarge",
+      "value": 90258.49,
+      "unit": "ns/op",
+      "extra": "585 times"
+    },
+    {
+      "name": "CachedBasicModel",
+      "value": 5730.38,
+      "unit": "ns/op",
+      "extra": "10235 times"
+    },
+    {
+      "name": "CachedRBACModel",
+      "value": 5429.26,
+      "unit": "ns/op",
+      "extra": "10498 times"
+    },
+    {
+      "name": "CachedRBACModelSmall",
+      "value": 5763.84,
+      "unit": "ns/op",
+      "extra": "10233 times"
+    },
+    {
+      "name": "CachedRBACModelMedium",
+      "value": 5511.7,
+      "unit": "ns/op",
+      "extra": "10460 times"
+    },
+    {
+      "name": "CachedRBACModelLarge",
+      "value": 1250778.64,
+      "unit": "ns/op",
+      "extra": "10170 times"
+    },
+    {
+      "name": "CachedRBACModelWithResourceRoles",
+      "value": 5654.9,
+      "unit": "ns/op",
+      "extra": "10264 times"
+    },
+    {
+      "name": "CachedRBACModelWithDomains",
+      "value": 5893.51,
+      "unit": "ns/op",
+      "extra": "9997 times"
+    },
+    {
+      "name": "CachedABACModel",
+      "value": 15932.26,
+      "unit": "ns/op",
+      "extra": "3924 times"
+    },
+    {
+      "name": "CachedKeyMatchModel",
+      "value": 5712.93,
+      "unit": "ns/op",
+      "extra": "10113 times"
+    },
+    {
+      "name": "CachedRBACModelWithDeny",
+      "value": 5381.45,
+      "unit": "ns/op",
+      "extra": "10642 times"
+    },
+    {
+      "name": "CachedPriorityModel",
+      "value": 5408.73,
+      "unit": "ns/op",
+      "extra": "10730 times"
+    },
+    {
+      "name": "HasPolicySmall",
+      "value": 9424.53,
+      "unit": "ns/op",
+      "extra": "6447 times"
+    },
+    {
+      "name": "HasPolicyMedium",
+      "value": 31216.18,
+      "unit": "ns/op",
+      "extra": "1716 times"
+    },
+    {
+      "name": "HasPolicyLarge",
+      "value": 261031.0,
+      "unit": "ns/op",
+      "extra": "205 times"
+    },
+    {
+      "name": "AddPolicySmall",
+      "value": 11833.04,
+      "unit": "ns/op",
+      "extra": "4792 times"
+    },
+    {
+      "name": "AddPolicyMedium",
+      "value": 45442.43,
+      "unit": "ns/op",
+      "extra": "1191 times"
+    },
+    {
+      "name": "AddPolicyLarge",
+      "value": 519074.97,
+      "unit": "ns/op",
+      "extra": "114 times"
+    },
+    {
+      "name": "RemovePolicySmall",
+      "value": 8287.71,
+      "unit": "ns/op",
+      "extra": "7317 times"
+    },
+    {
+      "name": "RemovePolicyMedium",
+      "value": 8046.01,
+      "unit": "ns/op",
+      "extra": "7043 times"
+    },
+    {
+      "name": "RemovePolicyLarge",
+      "value": 373000.56,
+      "unit": "ns/op",
+      "extra": "775 times"
+    },
+    {
+      "name": "RoleManagerSmall",
+      "value": 255338.0,
+      "unit": "ns/op",
+      "extra": "230 times"
+    },
+    {
+      "name": "RoleManagerMedium",
+      "value": 2440680.34,
+      "unit": "ns/op",
+      "extra": "23 times"
+    },
+    {
+      "name": "RoleManagerLarge",
+      "value": 26485935.12,
+      "unit": "ns/op",
+      "extra": "3 times"
+    },
+    {
+      "name": "BuildRoleLinksWithPatternLarge",
+      "value": 7720429.48,
+      "unit": "ns/op",
+      "extra": "8 times"
+    },
+    {
+      "name": "BuildRoleLinksWithDomainPatternLarge",
+      "value": 7454072.65,
+      "unit": "ns/op",
+      "extra": "8 times"
+    },
+    {
+      "name": "BuildRoleLinksWithPatternAndDomainPatternLarge",
+      "value": 7211263.71,
+      "unit": "ns/op",
+      "extra": "9 times"
+    },
+    {
+      "name": "HasLinkWithPatternLarge",
+      "value": 63696374.17,
+      "unit": "ns/op",
+      "extra": "1 times"
+    },
+    {
+      "name": "HasLinkWithDomainPatternLarge",
+      "value": 67462.91,
+      "unit": "ns/op",
+      "extra": "760 times"
+    },
+    {
+      "name": "HasLinkWithPatternAndDomainPatternLarge",
+      "value": 63095139.88,
+      "unit": "ns/op",
+      "extra": "1 times"
+    }
+  ]
+}
