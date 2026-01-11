@@ -1,0 +1,175 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "b7dc73fb1d4543500f1b4e4809a669a2d2fcb3cd",
+    "message": "Merge pull request #7 from AKonnyaku/yml-test\n\nYml test",
+    "timestamp": "2026-01-11T14:21:01+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/casbin-cpp/commit/b7dc73fb1d4543500f1b4e4809a669a2d2fcb3cd"
+  },
+  "date": 1768112725023,
+  "tool": "cpp",
+  "procs": 4,
+  "benches": [
+    {
+      "name": "Benchmarkraw",
+      "value": 19.71,
+      "unit": "ns/op",
+      "extra": "36254868 times"
+    },
+    {
+      "name": "Benchmarkbasicmodel",
+      "value": 12264.85,
+      "unit": "ns/op",
+      "extra": "56950 times"
+    },
+    {
+      "name": "Benchmarkbasicmodellargesize",
+      "value": 12008.19,
+      "unit": "ns/op",
+      "extra": "59471 times"
+    },
+    {
+      "name": "Benchmarkrbacmodel",
+      "value": 15417.69,
+      "unit": "ns/op",
+      "extra": "45706 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelsizessmall",
+      "value": 112974.88,
+      "unit": "ns/op",
+      "extra": "6156 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelsmall",
+      "value": 182491.99,
+      "unit": "ns/op",
+      "extra": "3802 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithresourceroles",
+      "value": 12575.55,
+      "unit": "ns/op",
+      "extra": "56979 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdomains",
+      "value": 14131.64,
+      "unit": "ns/op",
+      "extra": "49687 times"
+    },
+    {
+      "name": "Benchmarkkeymatchmodel",
+      "value": 14109.76,
+      "unit": "ns/op",
+      "extra": "50746 times"
+    },
+    {
+      "name": "Benchmarkrbacmodelwithdeny",
+      "value": 20928.18,
+      "unit": "ns/op",
+      "extra": "33999 times"
+    },
+    {
+      "name": "Benchmarkprioritymodel",
+      "value": 12155.54,
+      "unit": "ns/op",
+      "extra": "59218 times"
+    },
+    {
+      "name": "Benchmarkcachedraw",
+      "value": 20.52,
+      "unit": "ns/op",
+      "extra": "34260780 times"
+    },
+    {
+      "name": "Benchmarkcachedbasicmodel",
+      "value": 101.88,
+      "unit": "ns/op",
+      "extra": "6834429 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodel",
+      "value": 102.88,
+      "unit": "ns/op",
+      "extra": "6794743 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelsmall",
+      "value": 103.14,
+      "unit": "ns/op",
+      "extra": "6627375 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithresourceroles",
+      "value": 104.42,
+      "unit": "ns/op",
+      "extra": "6874162 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdomains",
+      "value": 116.92,
+      "unit": "ns/op",
+      "extra": "5972226 times"
+    },
+    {
+      "name": "Benchmarkcachedkeymatchmodel",
+      "value": 126.92,
+      "unit": "ns/op",
+      "extra": "5481205 times"
+    },
+    {
+      "name": "Benchmarkcachedrbacmodelwithdeny",
+      "value": 102.45,
+      "unit": "ns/op",
+      "extra": "6753192 times"
+    },
+    {
+      "name": "Benchmarkcachedprioritymodel",
+      "value": 102.63,
+      "unit": "ns/op",
+      "extra": "6860053 times"
+    },
+    {
+      "name": "Benchmarkvectoroperations",
+      "value": 989.16,
+      "unit": "ns/op",
+      "extra": "707162 times"
+    },
+    {
+      "name": "Benchmarkhaspolicysmall",
+      "value": 19478.83,
+      "unit": "ns/op",
+      "extra": "36066 times"
+    },
+    {
+      "name": "Benchmarkaddpolicysmall",
+      "value": 105426.2,
+      "unit": "ns/op",
+      "extra": "9775 times"
+    },
+    {
+      "name": "Benchmarkremovepolicysmall",
+      "value": 1107.09,
+      "unit": "ns/op",
+      "extra": "631962 times"
+    },
+    {
+      "name": "Benchmarkrolemanagersmall",
+      "value": 14751.42,
+      "unit": "ns/op",
+      "extra": "47705 times"
+    }
+  ]
+}
