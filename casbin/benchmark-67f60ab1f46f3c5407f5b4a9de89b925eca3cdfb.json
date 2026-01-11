@@ -1,0 +1,325 @@
+{
+  "commit": {
+    "author": {
+      "email": "50104361+AKonnyaku@users.noreply.github.com",
+      "name": "Konnyaku",
+      "username": "AKonnyaku"
+    },
+    "committer": {
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
+    },
+    "distinct": true,
+    "id": "67f60ab1f46f3c5407f5b4a9de89b925eca3cdfb",
+    "message": "Merge pull request #10 from AKonnyaku/yml-test\n\nYml test",
+    "timestamp": "2026-01-11T11:36:46+08:00",
+    "tree_id": "",
+    "url": "https://github.com/AKonnyaku/casbin/commit/67f60ab1f46f3c5407f5b4a9de89b925eca3cdfb"
+  },
+  "date": 1768102753700,
+  "tool": "go",
+  "procs": 4,
+  "benches": [
+    {
+      "name": "Cachedraw",
+      "value": 17.51,
+      "unit": "ns/op",
+      "extra": "68223054 times"
+    },
+    {
+      "name": "Cachedbasicmodel",
+      "value": 169.5,
+      "unit": "ns/op",
+      "extra": "6984697 times"
+    },
+    {
+      "name": "Cachedrbacmodel",
+      "value": 169.9,
+      "unit": "ns/op",
+      "extra": "7003572 times"
+    },
+    {
+      "name": "Cachedrbacmodelsmall",
+      "value": 177.0,
+      "unit": "ns/op",
+      "extra": "6703224 times"
+    },
+    {
+      "name": "Cachedrbacmodelmedium",
+      "value": 189.6,
+      "unit": "ns/op",
+      "extra": "6245246 times"
+    },
+    {
+      "name": "Cachedrbacmodellarge",
+      "value": 160.3,
+      "unit": "ns/op",
+      "extra": "7072095 times"
+    },
+    {
+      "name": "Cachedrbacmodelwithresourceroles",
+      "value": 170.6,
+      "unit": "ns/op",
+      "extra": "6967429 times"
+    },
+    {
+      "name": "Cachedrbacmodelwithdomains",
+      "value": 180.2,
+      "unit": "ns/op",
+      "extra": "6651854 times"
+    },
+    {
+      "name": "Cachedabacmodel",
+      "value": 2920.0,
+      "unit": "ns/op",
+      "extra": "418140 times"
+    },
+    {
+      "name": "Cachedkeymatchmodel",
+      "value": 188.8,
+      "unit": "ns/op",
+      "extra": "6350278 times"
+    },
+    {
+      "name": "Cachedrbacmodelwithdeny",
+      "value": 171.4,
+      "unit": "ns/op",
+      "extra": "6981106 times"
+    },
+    {
+      "name": "Cachedprioritymodel",
+      "value": 171.4,
+      "unit": "ns/op",
+      "extra": "6981232 times"
+    },
+    {
+      "name": "Cachedwithenforcecontext",
+      "value": 304.1,
+      "unit": "ns/op",
+      "extra": "3970795 times"
+    },
+    {
+      "name": "Cachedrbacmodelmediumparallel",
+      "value": 177.6,
+      "unit": "ns/op",
+      "extra": "6433251 times"
+    },
+    {
+      "name": "Haspolicysmall",
+      "value": 490.0,
+      "unit": "ns/op",
+      "extra": "2202238 times"
+    },
+    {
+      "name": "Haspolicymedium",
+      "value": 553.2,
+      "unit": "ns/op",
+      "extra": "2237094 times"
+    },
+    {
+      "name": "Haspolicylarge",
+      "value": 570.5,
+      "unit": "ns/op",
+      "extra": "2140150 times"
+    },
+    {
+      "name": "Addpolicysmall",
+      "value": 533.9,
+      "unit": "ns/op",
+      "extra": "2246804 times"
+    },
+    {
+      "name": "Addpolicymedium",
+      "value": 619.7,
+      "unit": "ns/op",
+      "extra": "1763563 times"
+    },
+    {
+      "name": "Addpolicylarge",
+      "value": 1232.0,
+      "unit": "ns/op",
+      "extra": "1000000 times"
+    },
+    {
+      "name": "Removepolicysmall",
+      "value": 501.7,
+      "unit": "ns/op",
+      "extra": "2375508 times"
+    },
+    {
+      "name": "Removepolicymedium",
+      "value": 560.8,
+      "unit": "ns/op",
+      "extra": "2100267 times"
+    },
+    {
+      "name": "Removepolicylarge",
+      "value": 617.9,
+      "unit": "ns/op",
+      "extra": "1986846 times"
+    },
+    {
+      "name": "Raw",
+      "value": 17.66,
+      "unit": "ns/op",
+      "extra": "67735165 times"
+    },
+    {
+      "name": "Basicmodel",
+      "value": 3613.0,
+      "unit": "ns/op",
+      "extra": "334747 times"
+    },
+    {
+      "name": "Rbacmodel",
+      "value": 5343.0,
+      "unit": "ns/op",
+      "extra": "224348 times"
+    },
+    {
+      "name": "RbacmodelsizesSmall",
+      "value": 47926.0,
+      "unit": "ns/op",
+      "extra": "24736 times"
+    },
+    {
+      "name": "RbacmodelsizesMedium",
+      "value": 491217.0,
+      "unit": "ns/op",
+      "extra": "2430 times"
+    },
+    {
+      "name": "RbacmodelsizesLarge",
+      "value": 5241573.0,
+      "unit": "ns/op",
+      "extra": "232 times"
+    },
+    {
+      "name": "Rbacmodelsmall",
+      "value": 59724.0,
+      "unit": "ns/op",
+      "extra": "20378 times"
+    },
+    {
+      "name": "Rbacmodelmedium",
+      "value": 583265.0,
+      "unit": "ns/op",
+      "extra": "1906 times"
+    },
+    {
+      "name": "Rbacmodellarge",
+      "value": 5959580.0,
+      "unit": "ns/op",
+      "extra": "176 times"
+    },
+    {
+      "name": "Rbacmodelwithresourceroles",
+      "value": 5210.0,
+      "unit": "ns/op",
+      "extra": "214503 times"
+    },
+    {
+      "name": "Rbacmodelwithdomains",
+      "value": 5089.0,
+      "unit": "ns/op",
+      "extra": "235035 times"
+    },
+    {
+      "name": "Abacmodel",
+      "value": 2815.0,
+      "unit": "ns/op",
+      "extra": "414164 times"
+    },
+    {
+      "name": "Abacrulemodel",
+      "value": 4185295.0,
+      "unit": "ns/op",
+      "extra": "284 times"
+    },
+    {
+      "name": "Keymatchmodel",
+      "value": 6065.0,
+      "unit": "ns/op",
+      "extra": "194300 times"
+    },
+    {
+      "name": "Rbacmodelwithdeny",
+      "value": 6932.0,
+      "unit": "ns/op",
+      "extra": "175614 times"
+    },
+    {
+      "name": "Prioritymodel",
+      "value": 4224.0,
+      "unit": "ns/op",
+      "extra": "291235 times"
+    },
+    {
+      "name": "Rbacmodelwithdomainpatternlarge",
+      "value": 13312.0,
+      "unit": "ns/op",
+      "extra": "89694 times"
+    },
+    {
+      "name": "Rolemanagersmall",
+      "value": 69499.0,
+      "unit": "ns/op",
+      "extra": "17060 times"
+    },
+    {
+      "name": "Rolemanagermedium",
+      "value": 726775.0,
+      "unit": "ns/op",
+      "extra": "1562 times"
+    },
+    {
+      "name": "Rolemanagerlarge",
+      "value": 8189603.0,
+      "unit": "ns/op",
+      "extra": "146 times"
+    },
+    {
+      "name": "Buildrolelinkswithpatternlarge",
+      "value": 334203342.0,
+      "unit": "ns/op",
+      "extra": "3 times"
+    },
+    {
+      "name": "Buildrolelinkswithdomainpatternlarge",
+      "value": 11844656.0,
+      "unit": "ns/op",
+      "extra": "87 times"
+    },
+    {
+      "name": "Buildrolelinkswithpatternanddomainpatternlarge",
+      "value": 339914425.0,
+      "unit": "ns/op",
+      "extra": "3 times"
+    },
+    {
+      "name": "Haslinkwithpatternlarge",
+      "value": 1103.0,
+      "unit": "ns/op",
+      "extra": "1000000 times"
+    },
+    {
+      "name": "Haslinkwithdomainpatternlarge",
+      "value": 473.1,
+      "unit": "ns/op",
+      "extra": "2511757 times"
+    },
+    {
+      "name": "Haslinkwithpatternanddomainpatternlarge",
+      "value": 1102.0,
+      "unit": "ns/op",
+      "extra": "1000000 times"
+    },
+    {
+      "name": "Concurrenthaslinkwithmatching",
+      "value": 1974.0,
+      "unit": "ns/op",
+      "extra": "588729 times"
+    }
+  ]
+}
